@@ -11,7 +11,7 @@ public class LanguageServiceExample {
     private static final String API_KEY = "e25334bf601e4aca88ab82d8279128ed";
     
     public static void main(String[] args) throws Exception {
-        String text = "Eu gosto muito deste lugar!";
+        String text = "Bom dia!";
         
         Map<String, Object> requestBody = new HashMap<>();
         requestBody.put("documents", new Object[]{
